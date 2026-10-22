@@ -2,12 +2,12 @@
   "customers": [
     {
       "id": "demo",
-      "brand": "GOLDLINE DIGITAL",
+      "brand": "NFC Bussiness card",
       "label": "DIGITAL BUSINESS CARD",
-      "name": "Alex Santos",
+      "name": "Est Riel",
       "title": "Owner / Creative Consultant",
       "company": "Santos Creative Studio",
-      "bio": "I help small businesses build a clear, memorable brand. Reach out and let's work together.",
+      "bio": "Galit sa bakla.",
       "photo": "",
       "phone": "+639171234567",
       "email": "alex@example.com",
