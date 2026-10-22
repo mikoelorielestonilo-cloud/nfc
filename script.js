@@ -33,7 +33,7 @@ function setProfile(profile) {
   const company = safeText(profile.company);
   const title = safeText(profile.title);
   const bio = safeText(profile.bio);
-  const photoUrl = safeHttpUrl(safeText(profile.photo));
+  const photoUrl = safeHttpUrl(safeText(profile.photo).trim());
 
   document.title = `${name} | Digital Business Card`;
   $("name").textContent = name;
