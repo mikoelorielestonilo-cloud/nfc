@@ -1,0 +1,41 @@
+{
+  "customers": [
+    {
+      "id": "demo",
+      "brand": "GOLDLINE DIGITAL",
+      "label": "DIGITAL BUSINESS CARD",
+      "name": "Alex Santos",
+      "title": "Owner / Creative Consultant",
+      "company": "Santos Creative Studio",
+      "bio": "I help small businesses build a clear, memorable brand. Reach out and let's work together.",
+      "photo": "",
+      "phone": "+639171234567",
+      "email": "alex@example.com",
+      "website": "https://example.com",
+      "socials": {
+        "facebook": "https://facebook.com/",
+        "instagram": "https://instagram.com/",
+        "linkedin": "https://linkedin.com/",
+        "messenger": "",
+        "whatsapp": "",
+        "tiktok": "",
+        "youtube": "",
+        "x": ""
+      }
+    },
+    {
+      "id": "maria",
+      "brand": "GOLDLINE DIGITAL",
+      "label": "DIGITAL BUSINESS CARD",
+      "name": "Maria Dela Cruz",
+      "title": "Business Owner",
+      "company": "Maria's Business",
+      "bio": "Welcome! Contact me using the buttons below.",
+      "photo": "",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "socials": {}
+    }
+  ]
+}

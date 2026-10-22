@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100d">
+  <meta name="description" content="Digital business card">
+  <title>Digital Business Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <article class="profile-card" aria-live="polite">
+      <div class="cover">
+        <span class="brand" id="brand">GOLDLINE DIGITAL</span>
+      </div>
+      <div class="avatar-wrap">
+        <img id="photo" class="avatar" alt="Profile photo" hidden>
+        <div id="initials" class="avatar initials" aria-hidden="true">AS</div>
+      </div>
+      <section class="profile-content">
+        <p class="eyebrow" id="companyLabel">DIGITAL BUSINESS CARD</p>
+        <h1 id="name">Loading profile…</h1>
+        <p class="role" id="title"></p>
+        <p class="company" id="company"></p>
+        <p class="bio" id="bio"></p>
+        <div class="primary-actions">
+          <button id="saveContact" class="button button-gold" type="button">Save Contact</button>
+          <button id="shareProfile" class="button button-muted" type="button">Share Profile</button>
+        </div>
+        <nav class="contact-actions" id="contactActions" aria-label="Contact links"></nav>
+        <div id="socialSection" class="social-section" hidden>
+          <p class="section-label">CONNECT</p>
+          <nav id="socialLinks" class="social-links" aria-label="Social media links"></nav>
+        </div>
+        <p id="notice" class="notice" role="status"></p>
+      </section>
+      <footer class="card-footer">TAP. CONNECT. GROW.</footer>
+    </article>
+    <p class="page-note">Tap the buttons to connect or save this contact.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
